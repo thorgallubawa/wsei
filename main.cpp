@@ -18,14 +18,14 @@ int main() {
     cin >> b;
     cout << "Podaj liczbe c: ";
     cin >> c;
-    DELTA = (b * b) - (4 * a * c);
+    DELTA = ((b * b) - (4 * a * c));
     Dp = sqrt(DELTA);
     cout << " DELTA = " << DELTA << endl;
     cout << " Pierwiastek z DELTA = " << Dp << endl;
     if(DELTA>0){
         cout << "DELTA jest większa od 0, wiec parabola ma 2 miejsca zerowe." << endl;
-        x1 = ( (- (b)) - Dp) / (2 * a);
-        x2 = ( (- (b)) + Dp) / (2 * a);
+        x1 = ( (-b) - Dp) / (2 * a);
+        x2 = ( (-b) + Dp) / (2 * a);
         cout << "Pierwiastki rzeczywiste tej funkcji to: " << " x1= " << x1 << ", x2= " << x2 << endl;
         q = (-(b))/(2 * a);
         p = (-(DELTA))/(4 * a);
