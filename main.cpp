@@ -11,7 +11,8 @@ int main(int argc, char *argv[]) {
     do {
         cout << " Podaj liczbe a, rozna od 0: ";
         cin >> a;
-    }while ( a==0 );
+    }
+    while ( a==0 );
     cout << "Podaj liczbe b: ";
     cin >> b;
     cout << "Podaj liczbe c: ";
